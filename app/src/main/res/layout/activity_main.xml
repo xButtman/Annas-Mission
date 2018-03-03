@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carmel.annasmission.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/matrixLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matrix"
+            android:textSize="48dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:textAllCaps="false"
+                android:id="@+id/clearBtn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/diagonalsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diagonal"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/borderBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Border"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/upperPartBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upper part"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/downPartBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Down part"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
